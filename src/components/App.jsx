@@ -67,7 +67,7 @@ class App extends Component {
   render() {
     const { isLoading, error, images, showModal, largeImage } = this.state;
     const { loadMore, showLargeImage, closeModal } = this;
-    console.log(largeImage);
+    // console.log(largeImage);
 
     return (
       <Container>
