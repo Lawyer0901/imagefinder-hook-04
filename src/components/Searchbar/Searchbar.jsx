@@ -9,6 +9,7 @@ const Searchbar = ({ onSubmit }) => {
     e.preventDefault();
     // console.log(this.state);
     onSubmit({ search });
+
     resetForm();
   };
 
