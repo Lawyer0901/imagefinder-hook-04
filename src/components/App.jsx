@@ -34,6 +34,7 @@ const App = () => {
     setSearch(searchQuery);
     setImages([]);
     setPage(1);
+    console.log(searchQuery);
   };
 
   useEffect(() => {
@@ -41,6 +42,9 @@ const App = () => {
       try {
         // const { search, page } = this.state;
         setIsLoading(true);
+        if (search === '') {
+          return;
+        }
         const data = await searchImage(search, page);
         setImages(prev => [...prev, ...data.hits]);
       } catch (error) {

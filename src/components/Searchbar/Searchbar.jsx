@@ -8,7 +8,7 @@ const Searchbar = ({ onSubmit }) => {
   const handleSubmit = e => {
     e.preventDefault();
     // console.log(this.state);
-    onSubmit({ search });
+    onSubmit(search);
 
     resetForm();
   };
