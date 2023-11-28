@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/imagefinder-hook-04/static/css/main.c4bbe886.css",
-    "main.js": "/imagefinder-hook-04/static/js/main.25d35834.js",
+    "main.js": "/imagefinder-hook-04/static/js/main.82fec333.js",
     "index.html": "/imagefinder-hook-04/index.html",
     "main.c4bbe886.css.map": "/imagefinder-hook-04/static/css/main.c4bbe886.css.map",
-    "main.25d35834.js.map": "/imagefinder-hook-04/static/js/main.25d35834.js.map"
+    "main.82fec333.js.map": "/imagefinder-hook-04/static/js/main.82fec333.js.map"
   },
   "entrypoints": [
     "static/css/main.c4bbe886.css",
-    "static/js/main.25d35834.js"
+    "static/js/main.82fec333.js"
   ]
 }
